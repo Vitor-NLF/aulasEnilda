@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+</head>
+<body class="tela-cadastro">  
+    <header class="menu">
+        <nav class="nav-menu">
+            <img src="../imagens/Scania-logo-8493147675-seeklogo.com.png" alt="">
+            <ul class="lista-menu">
+                <li class="item-menu"><a href="home.html" class="link-item">HOME</a></li>
+                <li class="item-menu"><a href="produtos.html" class="link-item">PRODUTOS</a></li>
+                <li class="item-menu"><a href="cadastro.html" class="link-item">CADASTRO</a></li>
+                <li class="item-menu"><a href="login.html" class="link-item">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box">
+        <div class="img-box">
+            <img src="../imagens/scania laranja.jpg" alt="">
+        </div>
+        <div class="form-box">
+            
+            <form action="#">
+                <h2>CRIAR CONTA</h2>
+                <div class="input-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" placeholder="Digite o seu nome completo." required>
+                </div>
+                <div class="input-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" placeholder="Digite o seu telefone." required>
+                </div>
+                <div class="input-group w50">
+                    <label for="Senha">Senha:</label>
+                    <input type="password" name="Senha" placeholder="Digite a sua senha." required>
+                </div>
+                <div class="input-group w50">
+                    <label for="confirmarSenha">Confirmar Senha:</label>
+                    <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua Senha." required>
+                </div>
+                <div class="input-group group-button">
+                    <button>Cancelar</button>
+                    <button>Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body> 
+</html>

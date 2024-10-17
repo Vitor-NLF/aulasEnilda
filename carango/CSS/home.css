@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.home{
+    height: 100%;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 20PX;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    
+}
+nav.nav-menu img{
+    width: 150px;
+    height: 90px;
+    /* padding-right: 440px; */
+}
+.nav-menu{
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    gap: 430px;
+    /* position: fixed; */
+  
+}
+body header header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul.palavra{
+    display: flex;
+    width: 100%;
+    height: 50%px;
+}
+.imagem img{
+    display: flex;
+    width: 100%;
+    border-radius: 34px;
+}
+.palavra{
+    width: 50%;
+    /* background-color: white; */
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 45px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 14px 30px 14px 30px;
+    border: 8px solid black;
+}
+.lista-menu{
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+
+}
+.item-menu{
+    display: flex;
+    width: 70%;
+    /* background-color: rgb(255, 255, 255); */
+}
+.link-item{
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.link-item:hover{
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+/* styles.css */
+
+/* Define a altura e largura do banner */
+.banner {
+    width: 100%;
+    height: 300px; /* Altura do banner */
+    background-image: url("../imagens/scania-nova-geração-1-1024x684.jpeg"); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o banner */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo verticalmente ao centro */
+    align-items: center; /* Alinha o conteúdo horizontalmente ao centro */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding e border no tamanho total do elemento */
+}
+
+.banner h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.banner p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    margin: 0; /* Remove a margem padrão */
+}
+.banner2 {
+    width: 100%;
+    height: 300px; /* Altura do banner */
+    background-image: url("../imagens/SCANIA-S500-082-P2-1068x732.jpg"); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o banner */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo verticalmente ao centro */
+    align-items: center; /* Alinha o conteúdo horizontalmente ao centro */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding e border no tamanho total do elemento */
+}
+
+.banner2 h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.banner2 p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    margin: 0; /* Remove a margem padrão */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.animated-image {
+    width: 800px; /* Ajuste conforme necessário */
+    animation: resize 2s ease-in-out infinite;
+}
+
+@keyframes resize {
+    0%, 100% {
+        transform: scale(1.6);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+

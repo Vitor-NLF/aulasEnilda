@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    width: 100%;
+    height: 100vh;    
+}
+.tela-login{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/lalalala.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.tela-login .container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+    justify-content: center; 
+}
+.tela-login .container-login{
+    width: 50%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#img-form{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius: 80px 20px;
+    box-shadow: 10px 10px 2px 2px rgb(0, 0, 0);
+}
+.wrap-login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 20px 50px 20px 50px;
+}
+.login-form-title{
+    /* background-color: aquamarine; */
+    color: rgb(60, 60, 60);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    /* padding-top: 2px; */
+}
+.wrap-input{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+.input-form{
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 52px;
+    padding: 0 15px;
+    display: block;
+    outline: none;
+    line-height: 1.2;
+    padding-left: 60px;
+}
+
+.focus-input-form{
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.focus-input-form::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    transition: all 0.4s;
+    background-color: blue;
+}
+.focus-input-form::after{
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    padding-left: 5px;
+    transition: all 0.4s; 
+}
+.input-form:focus+.focus-input-form::after{
+    top: -3px;
+    font-size: 15px;
+    display: block;
+    /* display: block;*/
+
+} 
+.container-login-form-btn{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    /* background-color: yellow;  */
+}
+.login-forn-btn{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.4s;
+    background-color:rgb(60, 60, 60);
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+.login-forn-btn:hover{
+    color: black;
+    background-color: rgb(139, 139, 139);
+    cursor: grabbing;
+}
+.login-utils{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-utils li{
+    list-style: none;
+}
+.login-utils .texto1{
+    font-size: 16px;
+    color: rgb(139, 139, 139);
+}
+.login-utils .texto2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
